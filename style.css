@@ -1,0 +1,34 @@
+body {
+    background: url("./images/1dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    display: grid;
+    place-content: center;
+    position: fixed;
+    bottom: 1em;
+    padding: 0.5em;
+    border-radius: 1rem;
+    backdrop-filter: blur(2em);
+}
+
+nav img {
+    height: 5vw;
+    transition-duration: 0.1s;
+}
+
+.first-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+nav img:hover {
+    transition-duration: 0.2s;
+}
