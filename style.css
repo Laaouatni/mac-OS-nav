@@ -21,14 +21,10 @@ nav {
 
 nav img {
     height: 5vw;
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
 }
 
 .first-container {
     display: flex;
-    gap: 0.5rem;
-}
-
-nav img:hover {
-    transition-duration: 0.2s;
+    gap: 0.8vw;
 }
