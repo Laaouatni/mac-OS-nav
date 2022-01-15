@@ -1,2 +1,2 @@
 # mac-OS-clone
-not completed
+almost completed 
