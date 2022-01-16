@@ -26,5 +26,5 @@ nav img {
 
 .first-container {
     display: flex;
-    gap: 0.8vw;
+    transition-duration: 0.5s;
 }

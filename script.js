@@ -1,4 +1,4 @@
-let nav = document.querySelector("nav");
+let firstContainer = document.querySelector(".first-container");
 
 let bigIcon = 'scale(1.4) translateY(-1.5vw)';
 let middleIcon = 'scale(1.2) translateY(-1vw)';
@@ -19,6 +19,8 @@ icons.forEach((item, index) => {
         // small
         let next2 = index + 2;
         let prima2 = index - 2;
+
+        firstContainer.style.gap = '0.8vw';
 
         if (ePC.target == icons[0]) {
             // normal
@@ -58,6 +60,7 @@ icons.forEach((item, index) => {
         icons.forEach((item1, hideIndex) => {
             icons[hideIndex].style.transform = normalIcon;
         });
+        firstContainer.style.gap = '0vw';
     });
 
     /*****************************************************************/
@@ -72,6 +75,8 @@ icons.forEach((item, index) => {
         // small
         let next2 = index + 2;
         let prima2 = index - 2;
+
+        firstContainer.style.gap = '0.8vw';
 
         if (eMobile.target == icons[0]) {
             // normal
@@ -111,6 +116,8 @@ icons.forEach((item, index) => {
         icons.forEach((item1, hideIndex) => {
             icons[hideIndex].style.transform = normalIcon;
         });
+
+        firstContainer.style.gap = '0vw';
     });
 
 });
