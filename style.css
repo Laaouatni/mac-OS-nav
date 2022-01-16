@@ -14,8 +14,8 @@ nav {
     place-content: center;
     position: fixed;
     bottom: 1em;
-    padding: 0.5em;
-    border-radius: 1rem;
+    padding: 0.5vw;
+    border-radius: 1vw;
     backdrop-filter: blur(2em);
 }
 
