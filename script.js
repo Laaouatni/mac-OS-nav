@@ -63,7 +63,7 @@ icons.forEach((item, index) => {
     /*****************************************************************/
 
     // hover icon
-    icons[index].addEventListener('touchstart', function(eMobile) {
+    icons[index].addEventListener('touchmove', function(eMobile) {
 
         // medium
         let next1 = index + 1;
