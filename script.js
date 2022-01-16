@@ -104,6 +104,8 @@ icons.forEach((item, index) => {
             icons[prima2].style.transform = smallIcon;
             icons[next2].style.transform = smallIcon;
         }
+
+        eMobile.preventDefault();
     });
 
 
